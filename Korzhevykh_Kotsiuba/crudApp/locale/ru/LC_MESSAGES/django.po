@@ -1,0 +1,327 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-22 14:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\crudApp\settings.py:109
+msgid "English"
+msgstr "Английский"
+
+#: .\crudApp\settings.py:110
+msgid "French"
+msgstr "Французский"
+
+#: .\crudApp\settings.py:111
+msgid "Russian"
+msgstr "Русский"
+
+#: .\hotel\templates\_base.html:38
+msgid "Tours"
+msgstr "Туры"
+
+#: .\hotel\templates\_base.html:41
+msgid "Contacts"
+msgstr "Контакты"
+
+#: .\hotel\templates\_base.html:65
+msgid "Admin"
+msgstr "Админ-панель"
+
+#: .\hotel\templates\_base.html:69
+msgid "User"
+msgstr "Пользователь"
+
+#: .\hotel\templates\_base.html:70
+msgid "Logout"
+msgstr "Выйти"
+
+#: .\hotel\templates\_base.html:72
+msgid "Login"
+msgstr "Авторизироваться"
+
+#: .\hotel\templates\addHotel.html:11 .\hotel\templates\addTour.html:11
+msgid "Enter Details"
+msgstr "Введите детали"
+
+#: .\hotel\templates\addHotel.html:15 .\hotel\templates\addTour.html:15
+#: .\hotel\templates\editTour.html:15 .\hotel\templates\showHotels.html:8
+#: .\hotel\templates\showTours.html:8
+msgid "Name"
+msgstr "Наименование"
+
+#: .\hotel\templates\addHotel.html:21 .\hotel\templates\editHotel.html:21
+#: .\hotel\templates\showHotels.html:9
+msgid "Stars"
+msgstr "Звезд"
+
+#: .\hotel\templates\addHotel.html:27 .\hotel\templates\addTour.html:27
+#: .\hotel\templates\editHotel.html:27 .\hotel\templates\editTour.html:27
+#: .\hotel\templates\showHotels.html:10 .\hotel\templates\showTours.html:10
+msgid "Description"
+msgstr "Описание"
+
+#: .\hotel\templates\addHotel.html:35 .\hotel\templates\addTour.html:35
+msgid "Submit"
+msgstr "Подтвердить"
+
+#: .\hotel\templates\addTour.html:21 .\hotel\templates\editTour.html:21
+#: .\hotel\templates\showTours.html:9
+msgid "Price"
+msgstr "Цена"
+
+#: .\hotel\templates\contacts.html:31
+msgid "Contact information"
+msgstr "Контактная информация"
+
+#: .\hotel\templates\editHotel.html:11 .\hotel\templates\editTour.html:11
+msgid "Update Details"
+msgstr "Обновить детали"
+
+#: .\hotel\templates\editHotel.html:15
+msgid "Title"
+msgstr "Название"
+
+#: .\hotel\templates\editHotel.html:35 .\hotel\templates\editTour.html:41
+msgid "Update"
+msgstr "Обновить"
+
+#: .\hotel\templates\editTour.html:33
+#, fuzzy
+#| msgid "Hotels"
+msgid "Hotel id"
+msgstr "Id отеля"
+
+#: .\hotel\templates\index.html:7
+msgid "Explore your Travel"
+msgstr "Иследуйте путешествуя"
+
+#: .\hotel\templates\index.html:8
+msgid "Enjoy the Best Destinations with Our Travel Agency"
+msgstr "Наслаждайтель лучшими местами с нашим туристическим агенством"
+
+#: .\hotel\templates\index.html:23
+msgid "Voyages & Cruises"
+msgstr "Туры и круизы"
+
+#: .\hotel\templates\index.html:31
+#, fuzzy
+#| msgid "Hotels"
+msgid "Hotel Bookings"
+msgstr "Бронирование отелей"
+
+#: .\hotel\templates\index.html:39
+msgid "Air Tickets"
+msgstr "Авиа билеты"
+
+#: .\hotel\templates\index.html:47
+msgid "Visas"
+msgstr "Визы"
+
+#: .\hotel\templates\index.html:61
+msgid "The Story"
+msgstr "История"
+
+#: .\hotel\templates\index.html:62
+msgid "About Us"
+msgstr "О нас"
+
+#: .\hotel\templates\index.html:71
+msgid "Time to see the world"
+msgstr "Время увидеть мир"
+
+#: .\hotel\templates\index.html:84
+msgid "What do we do"
+msgstr "Чем мы занимаемся"
+
+#: .\hotel\templates\index.html:87
+msgid "Diverse Destinations"
+msgstr "Разнообразные места"
+
+#: .\hotel\templates\index.html:92
+#, fuzzy
+#| msgid "Hotels"
+msgid "Great Hotels"
+msgstr "Отели"
+
+#: .\hotel\templates\index.html:97
+msgid "Fast Booking"
+msgstr "Быстрое бронирование"
+
+#: .\hotel\templates\index.html:113
+msgid "Why Choose Us"
+msgstr "Почему именно мы"
+
+#: .\hotel\templates\index.html:127
+msgid "Packages"
+msgstr "Комплекты"
+
+#: .\hotel\templates\index.html:141
+msgid "Specials"
+msgstr "Специальные предложения"
+
+#: .\hotel\templates\index.html:155
+msgid "Retreats"
+msgstr "Возврат"
+
+#: .\hotel\templates\index.html:177
+msgid "Our"
+msgstr "Наша"
+
+#: .\hotel\templates\index.html:179
+msgid "Great Team"
+msgstr "Великолепная команда"
+
+#: .\hotel\templates\index.html:201
+msgid "Viacheslav Kotsiuba"
+msgstr "Вячеслав Коцюба"
+
+#: .\hotel\templates\index.html:225
+msgid "Veronika Korzhevykh"
+msgstr "Вероника Коржевых"
+
+#: .\hotel\templates\index.html:242
+msgid "Let's Travel"
+msgstr "Путешествуйте!"
+
+#: .\hotel\templates\index.html:243
+msgid "Travel more, create more memories"
+msgstr "Путешествуйте больше и создавайте воспоминания"
+
+#: .\hotel\templates\index.html:248
+#, fuzzy
+#| msgid "Contacts"
+msgid "Contact us"
+msgstr "Контакты"
+
+#: .\hotel\templates\registration\logged_out.html:6
+msgid "Click here to login again."
+msgstr "Нажмите тут что бы авторизироваться снова"
+
+#: .\hotel\templates\registration\login.html:6
+msgid "Your username and password didn't match. Please try again."
+msgstr "Ваш логин и пароль не подходят. Попробуйте снова"
+
+#: .\hotel\templates\registration\login.html:38
+msgid "Lost password"
+msgstr "Забыл пароль"
+
+#: .\hotel\templates\registration\login.html:39
+msgid "Register"
+msgstr "Зарегестрироваться"
+
+#: .\hotel\templates\registration\password_reset_complete.html:4
+msgid "The password has been changed"
+msgstr "Пароль был изменен"
+
+#: .\hotel\templates\registration\password_reset_complete.html:5
+msgid "log in again"
+msgstr "Авторизироваться снова"
+
+#: .\hotel\templates\registration\password_reset_confirm.html:6
+msgid "Please enter (and confirm) your new password"
+msgstr "Введите ваш новый пароль"
+
+#: .\hotel\templates\registration\password_reset_confirm.html:12
+msgid "New password"
+msgstr "Новый пароль"
+
+#: .\hotel\templates\registration\password_reset_confirm.html:17
+msgid "Confirm password"
+msgstr "Подтвердить пароль"
+
+#: .\hotel\templates\registration\password_reset_confirm.html:22
+msgid "Change my password"
+msgstr "Изменить мой пароль"
+
+#: .\hotel\templates\registration\password_reset_confirm.html:27
+msgid "Password reset failed"
+msgstr "Восстановление пароля провалено"
+
+#: .\hotel\templates\registration\password_reset_confirm.html:28
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used"
+msgstr "Ссылка восстановления пароля не подходит"
+
+#: .\hotel\templates\registration\password_reset_done.html:3
+msgid "We've emailed you instructions for setting your password"
+msgstr "Мы отправили письмо на вашу почту"
+
+#: .\hotel\templates\registration\password_reset_form.html:7
+msgid "Reset password"
+msgstr "Восстановить пароль"
+
+#: .\hotel\templates\registration\register.html:4
+#: .\hotel\templates\registration\register.html:9
+msgid "Sign up"
+msgstr "Зарегестрироваться"
+
+#: .\hotel\templates\showHotels.html:7 .\hotel\templates\showTours.html:7
+msgid "Id"
+msgstr "Id"
+
+#: .\hotel\templates\showHotels.html:26
+msgid "Add tour"
+msgstr "Добавить тур"
+
+#: .\hotel\templates\showHotels.html:30 .\hotel\templates\showTours.html:33
+msgid "Edit"
+msgstr "Редактировать"
+
+#: .\hotel\templates\showHotels.html:34 .\hotel\templates\showTours.html:37
+msgid "Delete"
+msgstr "Удалить"
+
+#: .\hotel\templates\showHotels.html:46
+msgid "Add new hotel"
+msgstr "Добавить новый отель"
+
+#: .\hotel\templates\showTours.html:11
+#, fuzzy
+#| msgid "Hotels"
+msgid "Hotels"
+msgstr "Отели"
+
+#: .\hotel\templates\showTours.html:13
+msgid "Actions"
+msgstr "Действия"
+
+#: .\hotel\templates\showTours.html:29
+msgid "Order tour"
+msgstr "Заказать тур"
+
+#: .\hotel\views.py:92
+msgid "Email address"
+msgstr "Почтовый адрес"
+
+#: .\hotel\views.py:92
+msgid "Required."
+msgstr "Обязательно"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "Destinations"
+#~ msgstr "Места"
+
+#~ msgid "Please login to see this page"
+#~ msgstr "Авторизируйтесь, что бы увидеть эту страницу"
+
+#~ msgid "Welcome to our page"
+#~ msgstr "Добро пожаловать"

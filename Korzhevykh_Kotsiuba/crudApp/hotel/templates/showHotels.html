@@ -1,0 +1,49 @@
+{% extends "_base.html" %}
+
+{% block content %}{% load i18n %}
+        <table class="table table-striped table-bordered table-sm">
+    <thead class="thead-dark">
+    <tr>
+        <th>{% trans "Id" %}</th>
+        <th>{% trans "Name" %}</th>
+        <th>{% trans "Stars" %}</th>
+        <th>{% trans "Description" %}</th>
+        {% if perms.hotel.add_tour or perms.hotel.change_hotel or perms.hotel.delete_hotel %}
+            <th>Actions</th>
+        {% endif %}
+    </tr>
+    </thead>
+    <tbody>
+{% for hotel in hotels %}
+    <tr>
+        <td>{{ hotel.id }}</td>
+        <td>{{ hotel.name }}</td>
+        <td>{{ hotel.stars }}</td>
+        <td>{{ hotel.description }}</td>
+        {% if perms.hotel.add_tour or perms.hotel.change_hotel or perms.hotel.delete_hotel %}
+        <td>
+            {% if perms.hotel.add_tour %}
+                <a class="btn btn-outline-primary" href="/tours/{{ hotel.id }}">{% trans "Add tour" %}</a>
+            {% endif %}
+
+             {% if perms.hotel.change_hotel %}
+                <a class="btn btn-outline-secondary" href="/hotels/{{ hotel.id }}/edit"><span class="glyphicon glyphicon-pencil" >{% trans "Edit" %}</span></a>
+            {% endif %}
+
+             {% if perms.hotel.delete_hotel %}
+                <a class="btn btn-outline-danger" href="/hotels/{{ hotel.id }}/delete">{% trans "Delete" %}</a>
+            {% endif %}
+        </td>
+        {% endif %}
+    </tr>
+{% endfor %}
+    </tbody>
+</table>
+
+<br>
+<br>
+ {% if perms.hotel.add_hotel %}
+<center><a href="/hotels" class="btn btn-primary">{% trans "Add new hotel" %}</a></center></div>
+ {% endif %}
+
+{% endblock %}
